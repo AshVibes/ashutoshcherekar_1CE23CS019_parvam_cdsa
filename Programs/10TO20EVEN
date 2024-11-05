@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+	int a;
+	printf("Enter the value");
+	scanf("%d",&a);
+	if((a>=1)&&(a<=1000))
+		if((a>=10)&&(a<=20))
+			if(a%2==0)
+	printf("It is valid");
+	else
+	printf("It is invalid");
+	return 0;
+}
