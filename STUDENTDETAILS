@@ -1,0 +1,29 @@
+#include<stdio.h>
+int main()
+{
+int m1,m2,m3,avg,total;
+float perc;
+char name;
+printf("Enter the name of student:");
+scanf("%s",&name);
+printf("Enter marks of subject1:");
+scanf("%d",&m1);
+printf("Enter marks of subject2:");
+scanf("%d",&m2);
+printf("Enter marks of subject3:");
+scanf("%d",&m3);
+total=m1+m2+m3;
+avg=(m1+m2+m3)/3;
+perc=((float)total/300)*100;
+printf("total marks :%d \n",total);
+printf("Average:%d \n",avg);
+printf("Percentage: %f \n",perc);
+if(m1>35)
+if(m2>35)
+if(m3>35)
+printf("pass \n");
+else
+printf("fail \n");
+return 0;
+}
+
